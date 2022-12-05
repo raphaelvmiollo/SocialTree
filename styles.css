@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+
+    --font: 'Poppins', sans-serif;
+    --font-semibold: 600;
+    --font-thin: 300;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--body-bg-color);
+    font-family: var(--font);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 414px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 2px solid var(--purple);
+    padding: 2px;
+    margin-top: 126px;
+    background-color: #c4c4c4;
+}
+
+.social-profile {
+    margin: 22px 0px 33px 0px;
+    text-decoration: none;
+    color: var(--purple);
+    font-weight: var(--font-thin);
+}
+
+.link-content {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    border: 2px solid var(--purple);
+    color: var(--purple);
+    padding: 12px 0px 12px 0px;
+    width: 326px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: var(--font-semibold);
+}
+
+.link-content:hover{
+    scale: 1.04;
+    opacity: 0.8;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin-top: 60px;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+
+}
+
+.social-icons img:hover {
+    scale: 1.08;
+    opacity: 0.8;
+
+}
+
+
